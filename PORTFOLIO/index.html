@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en"
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css"
+    <! -- -----------link to JavaScript------------- -->
+    <script src="https://kit.fontawesome.com/6dc9cf79ed.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/Logo1.png.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a> </li>
+                    <li><a href="#about">About</a> </li>
+                    <li><a href="#achievements">Achievements</a> </li>
+                    <li><a href="#portfolio">Portfolio</a> </li>
+                    <li><a href="#contact">Contact</a> </li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Mangali Rakesh</span><br>from Hyderabad.</h1>
+            </div>
+        </div>
+    </div>
+   <!------------------About-------------------> 
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user1.png.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am a Highly Analytical Front-End Developer with expertise in HTML, CSS and JavaScript, 
+                    Various Front-End Frameworks. I develop a dynamic and responsive interfaces. 
+                    With a deep understanding of Front-End Development best practices, 
+                    I am an innovative developer experienced in Java.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul><li><span>Web Development</span><br>HTML, CSS and JavaScript</li>
+                            <li><span>Data Visualization</span><br>Excel Functions</li>
+                            <li><span>Databases</span><br>MySQL, MongoDB</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul><li><span>2024 June - Present</span><br>Web Developer Intern at CodSoft</li>
+                            <li><span>2024 March - April</span><br>Data Visualization Analyst at Cognifyz Tech.</li>
+                            <li><span>2023 Sep - April 2024 </span><br>Software Trainee at Medjacket India Pvt. Ltd.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul><li><span>2020 - 2023</span><br>B.Sc Computer Science in Osmania University</li>
+                            <li><span>2018 - 2020</span><br>Intermediate at Royal Junior College</li>
+                            <li><span>2017 - 2018</span><br>SSC at St.Ann's High School</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ---------------------achievements---------------- -->
+ <div id="achievements">
+    <div class="container">
+        <h1 class="sub-title">My Achievements</h1>
+        <div class="achievements-list">
+            <div>
+                <i class="fa-solid fa-graduation-cap"></i>
+                <h2>PGDCA</h2>
+                <p>Awarded Certificate in Post Graduate Diploma in Computer Application
+                    conforming to Akshara Cheyutha Foundation Framework Level 1, Training partner of NSDC.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-desktop"></i>
+                <h2>Front End Development</h2>
+                <p>Awarded Certificate in Front End Development - HTML.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-regular fa-file-code"></i>
+                <h2>Web Development</h2>
+                <p>Web Development Internship offer from CodSoft.</p>
+                <a href="#">LearnMore</a>
+            </div>
+        </div>
+    </div>
+ </div>
+ <!-- --------------------portfolio----------------- -->
+  <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="projects-list">
+            <div class="project">
+                <img src="images/3-Login-Page-Screen.jpg">
+                <div class="layer">
+                    <h3>Login Page Screen</h3>
+                    <p>A Basic login page having login details like Email address, Password and login tab,
+                         Signup to Create Account and login with Google or Facebook tabs using HTML and CSS.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="images/HIMS Project 2.png">
+                <div class="layer">
+                    <h3>HIMS Testing</h3>
+                    <p>HIMS is an Hospital Information Management System. It is an Java Web Application 
+                        and done testing in application of Enrolling patients to Billing of Patients.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="images/LMS Project 3.png">
+                <div class="layer">
+                    <h3>LMS Testing</h3>
+                    <p>LMS is an Learning Management System. Done testing in Web Application in 
+                        Adding Students, Lecturers and Courses and Marking Attendence of students.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!-- ----------------contact-------------- -->
+     <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>rakeshmangali7688@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>+918497953143</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/chintu7688_?igsh=MXFtd3R1ZnZreWJpYg%3D%3D&utm_source=qr"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://x.com/rakesh7688"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="http://linkedin.com/in/mangali-rakesh-b4b045284"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Rakesh7688"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="images/Rakesh CV.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright <i class="fa-regular fa-copyright"></i> Mangali Rakesh. All rights reserved.</p>
+        </div>
+     </div>
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab")
+    } 
+
+</script>
+
+
+
+
+</body>
+</html>
+
